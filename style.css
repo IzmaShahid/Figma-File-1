@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+    
+}
+.logo{
+    margin-left: 3rem;
+    
+}
+.nav{
+      margin-left: 20rem;
+    text-decoration: none;
+}
+.nav ul li  {
+    color: #000000;
+    list-style-type: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    text-align: center;
+    padding-left: 1rem;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #1b026e;
+}
+button{
+    background-color:#D01C28;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-left: 25rem;
+    cursor: pointer;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+    font-size:78px;
+    Line-height:80px;
+    margin-left: 9rem;
+    margin-right: 35rem;
+}
+.img{
+    width: 40rem;
+    position: absolute;
+    margin-left: 39rem;
+    
+}
+p{
+    padding-top: 2rem;
+    margin-left: 9rem;
+    max-width: 40rem;
+}
+.buttons{
+    margin-top: 1.5rem;
+  margin-left: 9rem;
+}
+ a:hover{
+    color: #D01C28;
+}
+label{
+    border: 1px solid black;
+    margin-left: 2rem;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    color: gray;
+    font-weight: 300;
+}
+
+.icon{
+    margin-left: 9rem;
+    padding-left: 1rem;
+    justify-content: space-between;
+}
